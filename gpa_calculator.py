@@ -1,7 +1,7 @@
 print("input bangla marks: ")
 bangla = int(input())
 
-if bangla>100 or bangla<0:
+if bangla > 100 or bangla < 0:
     print("Marks have to be between 0 and 100 ")
     exit()
 
@@ -10,7 +10,7 @@ if bangla>100 or bangla<0:
 print("input english marks: ")
 english = int(input())
 
-if english >100 or english <0:
+if english > 100 or english < 0:
   print("Marks have to be between 0 and 100")
   exit()
 
@@ -18,15 +18,16 @@ if english >100 or english <0:
 print("input science marks:")
 science = int(input())
 
-if science >100 or science <0:
+if science > 100 or science < 0:
     print("Marks have to be between 0 and 100")
     exit()
 # mathmarks
 print("input math marks: ")
 math = int(input())
 
-if math > 100 or math <0:
+if math > 100 or math < 0:
     print("Marks have to be between 0 and 100")
+    exit()
 
 
 average = int((bangla + english + math + science) / 4)
